@@ -1,0 +1,3 @@
+export const API_KEY = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlZTY4MGEzZDZmYWZhOWE3MWIzMTAzOWNhYjE4OTU3YiIsInN1YiI6IjYxZWVjOWEzMWFkOTNiMDBlOTExZjc3ZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.By_WwzjhFHF4jypFHjqTNyMCEyXh1f_6SsLDhyBTqcg'
+
+export const baseImgUrl = 'https://image.tmdb.org/t/p'
