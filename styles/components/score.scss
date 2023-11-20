@@ -1,0 +1,24 @@
+.cm-score {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 8px 10px;
+  border-radius: 8px;
+  width: fit-content;
+
+  &.very-good {
+    background: #00AA2E;
+  }
+  &.good {
+    background: #005F1A;
+  }
+  &.normal {
+    background: #0cc;
+  }
+  &.bad {
+    background: #C66000;
+  }
+  &.very-bad {
+    background: #CB0000;
+  }
+}

@@ -1,50 +1,55 @@
 .cm-navbar {
   display: flex;
   width: 100%;
-  justify-content: space-around;
-  background: transparent;
   position: absolute;
   z-index: 2;
+  .cm-navbar-container {
+    padding: 0 200px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: transparent;
 
-  .cm-navbar-logo {
-    text-decoration: none;
-    color: white;
-    padding: 20px 0;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-
-    >span {
-      color: #0CC;
-    }
-  }
-
-  .cm-navbar-item-list {
-    padding: 20px 0;
-    margin: 0;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    
-    .cm-navbar-item {
-      color: white;
+    .cm-navbar-logo {
       text-decoration: none;
-      padding: 0 28px;
-      position: relative;
+      color: white;
+      padding: 20px 0;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
 
-      &.active {
-        color: #0CC;
+      > span {
+        color: #0cc;
       }
+    }
 
-      &:not(:last-child) {
-        &::after {
-          position: absolute;
-          top: 2px;
-          right: 0;
-          content: "";
-          width: 0.5px;
-          height: 90%;
-          background-color: #CBCBCB;
+    .cm-navbar-item-list {
+      padding: 20px 0;
+      margin: 0;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+
+      .cm-navbar-item {
+        color: white;
+        text-decoration: none;
+        padding: 0 28px;
+        position: relative;
+
+        &.active {
+          color: #0cc;
+        }
+
+        &:not(:last-child) {
+          &::after {
+            position: absolute;
+            top: 2px;
+            right: 0;
+            content: "";
+            width: 0.5px;
+            height: 90%;
+            background-color: #cbcbcb;
+          }
         }
       }
     }
