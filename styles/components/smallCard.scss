@@ -1,0 +1,33 @@
+.cm-card-sm {
+  width: 160px;
+  height: auto;
+  cursor: pointer;
+
+  .cm-card-sm-image-container {
+    position: relative;
+    margin-bottom: 24px;
+
+    .cm-card-sm-image {
+      border-radius: 8px;
+    }
+    .cm-card-sm-score {
+      position: absolute;
+      bottom: -8px;
+      left: 8px;
+    }
+  }
+
+  .cm-card-sm-info-container {
+    .cm-card-sm-title {
+      color: #000;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .cm-card-sm-date {
+      color: #999;
+      font-size: 14px;
+      font-weight: 400;
+    }
+  }
+}
